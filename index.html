@@ -24,10 +24,52 @@
                 <img src="/images/search.png" alt="">
                 <input type="text" placeholder="Search">
             </div>
-            <div class="nav-user-icon online">
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
                 <img src="/images/profile-pic.png" alt="">
             </div>
         </div>
+
+        <div class="settings-menu">
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                <img src="images/profile-pic.png">
+                <div>
+                    <p>Jhon Nicholson</p>
+                    <a href="#">See your profile</a>
+                </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+                <img src="images/feedback.png">
+                <div>
+                    <p>Give Feedback</p>
+                    <a href="#">Help us to improve new degin</a>
+                </div>
+            </div>
+            <hr>
+
+            <div class="settings-links">
+                <img src="images/setting.png" class="settings-icon">
+                <a href="#">settings and privacy <img src="images/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="images/help.png" class="settings-icon">
+                <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="images/display.png" class="settings-icon">
+                <a href="#">Display and Accessability <img src="images/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="images/logout.png" class="settings-icon">
+                <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+            </div>
+            </div>
+        </div>
+
     </nav>
 
     <div class="container">
@@ -96,16 +138,174 @@
             </div>
 
             <div class="post-container">
-                <div class="user-profile">
-                    <img src="images/profile-pic.png">
-                    <div>
-                        <p>Jhon Nicholson</p>
-                        <span>June 24 2021, 13:45 pm</span>
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Jhon Nicholson</p>
+                            <span>June 24 2021, 13:45 pm</span>
+                        </div>
+
+                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
                     </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum eius, sint, vel nihil nostrum esse repellendus laboriosam delectus inci. <a href="">#Youtube channel</a></p>
+
+                <p class="post-text">Lorem ipsum dolor <span>@youtube channel</span> sit amet, consectetur adipisicing
+                    elit. Eum eius, sint, vel nihil nostrum esse repellendus laboriosam delectus inci. <a
+                        href="">#Youtube channel</a></p>
                 <img src="images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div> <img src="images/like-blue.png" alt="">120</div>
+                        <div> <img src="images/comments.png" alt="">50</div>
+                        <div> <img src="images/share.png" alt="">80</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
             </div>
+
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-2.png">
+                        <div>
+                            <p>Jackson</p>
+                            <span>June 25 2021, 6:45 am</span>
+                        </div>
+
+                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                    </div>
+                </div>
+
+                <p class="post-text">Lorem ipsum dolor <span>@youtube channel</span> sit amet, consectetur adipisicing
+                    elit. Eum eius, sint, vel nihil nostrum esse repellendus laboriosam delectus inci. <a
+                        href="">#Youtube channel</a></p>
+                <img src="images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div> <img src="images/like.png" alt="">120</div>
+                        <div> <img src="images/comments.png" alt="">50</div>
+                        <div> <img src="images/share.png" alt="">80</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-1.png">
+                        <div>
+                            <p>Alison</p>
+                            <span>June 26 2021, 13:45 pm</span>
+                        </div>
+
+                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                    </div>
+                </div>
+
+                <p class="post-text">Lorem ipsum dolor <span>@youtube channel</span> sit amet, consectetur adipisicing
+                    elit. Eum eius, sint, vel nihil nostrum esse repellendus laboriosam delectus inci. <a
+                        href="">#Youtube channel</a></p>
+                <img src="images/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div> <img src="images/like-blue.png" alt="">120</div>
+                        <div> <img src="images/comments.png" alt="">50</div>
+                        <div> <img src="images/share.png" alt="">80</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Jhon Nicholson</p>
+                            <span>June 24 2021, 13:45 pm</span>
+                        </div>
+
+                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                    </div>
+                </div>
+
+                <p class="post-text">Lorem ipsum dolor <span>@youtube channel</span> sit amet, consectetur adipisicing
+                    elit. Eum eius, sint, vel nihil nostrum esse repellendus laboriosam delectus inci. <a
+                        href="">#Youtube channel</a></p>
+                <img src="images/feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div> <img src="images/like-blue.png" alt="">120</div>
+                        <div> <img src="images/comments.png" alt="">50</div>
+                        <div> <img src="images/share.png" alt="">80</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Jhon Nicholson</p>
+                            <span>June 24 2021, 13:45 pm</span>
+                        </div>
+
+                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                    </div>
+                </div>
+
+                <p class="post-text">Lorem ipsum dolor <span>@youtube channel</span> sit amet, consectetur adipisicing
+                    elit. Eum eius, sint, vel nihil nostrum esse repellendus laboriosam delectus inci. <a
+                        href="">#Youtube channel</a></p>
+                <img src="images/feed-image-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div> <img src="images/like-blue.png" alt="">120</div>
+                        <div> <img src="images/comments.png" alt="">50</div>
+                        <div> <img src="images/share.png" alt="">80</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="load-more-btn">lode more</button>
 
 
         </div>
@@ -176,6 +376,13 @@
 
         </div>
     </div>
+
+    <div class="footer">
+        <p>@Copyright 2021-Easy Tutorials Youtube channel</p>
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
